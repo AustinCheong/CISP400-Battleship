@@ -53,5 +53,7 @@ int main() {
     //similar to system pause - system pause doesn't run on macs
     cin.ignore(numeric_limits<streamsize>::max(), '\n');    //reads stream size - doesn't ignore cin.get()
     cin.get();
+    
+    //system("pause");
     return 0;
 }
